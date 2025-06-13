@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: linear-gradient(to right, #f0f2f5, #e0e7ec);
+}
+
+h1, h2 {
+  color: #343a40;
+  transition: all 0.3s ease-in;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
